@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@font-face {
+    font-family: idroid ;
+    src: url(fontes/idroid.otf);
+}
+/**{padding:auto;
+margin:auto;
+text-align:centre;
+}*/
+
+
+body{
+    background-color: #84e0ac;
+}
+main{
+    max-width: min-content;
+    background-color: white;
+    padding:auto;
+    margin:auto;
+    padding: 10px;
+}
+header{
+    min-height: 200px;
+    background-image: linear-gradient(to bottom, #39c978, #174c2f);   
+    text-align: center;
+    font-family: ; 
+}
+h1{
+    color:white;
+    font-family: "Oswald"; /*adicionar mais info*/
+    text-shadow: black 2px 2px 2px;
+    padding-top: 30px;
+}
+nav{
+    background-color: #174c2f;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav > a{
+    color:white;
+}
+h2.subtema{
+    background-color: #84e1ac63;
+    font-family: 'idroid', sans-serif;
+    color: #154d2e;
+}
+
+p, p.p_in_table {
+    text-indent: 30px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+}
+
+a.link{ /*só começou a funcionar dps que criei a classe*/
+    color: #2e6b48;
+    font-weight: bold;
+}
+
+a.link::after{
+    display: inline;
+    content: url(imagens/link.png);
+}
+
+section#tabelinha{
+    background-color: #c5ead7;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #1A5B37;
+    font-size: smaller;
+    text-align: center;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer > p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+/*criando duas colunas de tamanho igual*/
+.row{
+    display:flex;
+}
+
+.column{
+    flex: 50%;
+}
+ul{
+    list-style-image: url("imagens/check.png") ;
+}
+
+#topico1{
+    font-family: 'idroid', sans-serif;
+    color: #154d2e;
+}
+
+#video_section{
+    background-color: #1b5d38;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 10px;
+}
+
+strong{
+    color: #1b5d38;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#descricao {
+    font-size:smaller;
+}
+
+h5{
+    background-color:#2fa967 ; 
+    border-radius: 5px; 
+    text-align:left ; 
+    font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 15px;
+}
+
+#id_tabelinha{
+    padding: 50px;
+}
